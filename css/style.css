@@ -1,5 +1,4 @@
 
-
 :root{
     --color: #Fbbc01;
 }
@@ -17,15 +16,15 @@ a{
 }
 header{
     width:100vw;
-    header:1000vh;
-    background: url(../images/amthuc.png);
-    background-position:center;
-    background-size: center;
+    height:100vh;
+    background: url("../images/azsfaf.jpg");
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 header::before{
@@ -35,7 +34,7 @@ header::before{
     content: "";
     display: block;
     background:block;
-    background:#rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0,0.5);
 }
 header input{
     width:50px;
@@ -48,11 +47,11 @@ header input{
     cursor: pointer;
     position: fixed;
 }
-header input:checked ~ .menu-icon .menu-left::before{
+header input:checked ~ .menu-icon .menu-line::before{
     transform: rotate(90deg);
     top:0;
 }
-header input:checked ~ .menu-icon .menu-left::after{
+header input:checked ~ .menu-icon .menu-line::after{
     transform: rotate(90deg);
     top:0;
 }
@@ -76,37 +75,36 @@ header input:checked ~ .menu-item{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-.menu-left{
+.menu-line{
     height:4px;
     width: 100%;
     background: var(--color1);
     position: relative;
 }
-.menu-left::before{
+.menu-line::before{
     content:"";
     display: block;
     width: 100%;
     height:4px;
     position: absolute;
-    background: var(--color1);
+    background: var(--color);
     top: -14px
 }
-.menu-left::before{
+.menu-line::after{
     content:"";
     display: block;
     width: 100%;
     height:4px;
     position: absolute;
-    background: var(--color1);
+    background: var(--color);
     top: 14px
 }
 .menu-item{
     position: fixed;
     width:300px;
     height:100vh;
-    background: #rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     top: 0;
     right:-100%;
     display: flex;
@@ -121,19 +119,19 @@ header input:checked ~ .menu-item{
     line-height: 40px;
 }
 .menu-item li a{
-    color: var(--color1);
+    color:var(--color);
 }
 .header-text{
     position: absolute;
 }
 .header-text h1{
-    font-size:50px;
-    color: var(--color1);
+    font-size: 50px;
+    color:var(--color);
     margin-bottom:20px;
 }
 .header-text a{
     padding:15px 40px;
-    background: var(--color1);
+    background:var(--color);
     color: #000;
     border-radius: 50px;
     font-size:25px;
@@ -145,8 +143,8 @@ header input:checked ~ .menu-item{
 }
 .header-text a:hover {
     background: transparent;
-    color: var(--color1);
-    border: 2px solid color: var(--color1);
+    color:var(--color);
+    border: 2px solid var(--color);
 }
 @keyframes headerAnimation{
     0% {
