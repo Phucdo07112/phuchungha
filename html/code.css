@@ -1,0 +1,160 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background-repeat: no-repeat;
+    background-image: url("/images/amthuc.png");
+    width: 1305px;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;   
+}
+header h2 {
+    font-size: 40px;
+    color: rgb(97, 39, 32);
+    font-family:cursive;
+    display: block;
+    padding-top: 20px;
+}
+.topnav ul {
+    display: flex;
+    list-style-type: none;
+   justify-content: center;
+}
+li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contain_heard{
+    padding-top: 200px;
+}
+.contain_heard a{
+    text-decoration: none;
+    padding:15px 40px;
+    background:rgb(255, 255, 0);
+    color: #000;
+    border-radius: 50px;
+    font-size:25px;
+    opacity: 0.7;
+    transition:0.3s;
+}
+.contain_heard a:hover{
+    background: transparent;
+    color:var(--color);
+    border: 2px solid var(--color);
+}
+.images_1{
+    padding-left: 50px;
+}
+.images_1 p{
+    float: right;
+    padding-top: 100px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #989898;
+    font-weight: 400;
+}
+.contain_1{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+.contain_2{
+   background-image: url("/images/big-plate-seafood-restaurant.jpg");
+   width: 1305px;
+   height: 500px;
+   background-size: cover;
+}
+.text_1{
+    font-size: 21px;
+    color: #393b2b;
+    font-weight: 600;
+    line-height: 72px;
+   text-align: center;
+
+}
+.text_1 h1{
+    padding-top: 35px;
+}
+.text_2 {
+    text-align: center;
+}
+.text_2{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+}
+.text_3{
+   text-align: center;
+   padding-top: 40px;
+}
+.text_3 a{
+    text-decoration: none;
+    padding: 15px 40px;
+    background: rgb(14, 14, 0);
+    color: rgb(241, 235, 235);
+    font-size: 25px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.text_3 a:hover{
+    background: transparent;
+    color:var(--color);
+    border: 2px solid var(--color);
+}
+.contain_3{
+    width: 1305px;
+    height: 500px;
+    background-size: cover;
+}
+.index_1 h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 72px;
+    margin-top: 30px;
+}
+.index_2 h4{
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #989898;
+    font-weight: 400
+}
+.images1_contain3{
+    float: left;
+}
+.images2_contain3{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px
+}
+.all_images{
+     padding: 32px;
+}
+footer{
+    width: 1305px;
+    height: 200px;
+   background: rgb(43, 37, 37);
+   color: blanchedalmond;
+   font-family: "Open Sans",sans-serif;
+   font-size: 15px;
+   line-height: 25px;
+   color: #989898;
+   font-weight: 400;
+}
+.footer_end{
+    margin-left: 40px;
+    padding-top: 30px;
+   
+}
+.footer_end_1{
+    margin-left: 40px;
+}
